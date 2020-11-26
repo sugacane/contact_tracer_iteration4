@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url('../lato/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url('../lato/Lato-Bold.ttf');
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container-fluid {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.form-row{
+    height: 100vh;
+}
+
+.side-banner {
+    background-image: url('../geo-background.jpg');
+    box-shadow: 5000px 5000px rgba(0, 207, 255, 0.88) inset;
+    text-align: center;
+    padding-top: 220px;
+}
+
+.side-banner h1{
+    font-family: Lato-Bold;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom:10px
+}
+
+.side-banner span{
+    font-family: Lato-Regular;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom:10px
+}
+
+.side-banner button{
+    font-family: Lato-Regular;
+    background-color: #37373700;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.side-form {
+
+}
+
+.side-form h2 {
+    font-family: Lato-Bold;
+    color: rgb(0, 207, 255);
+    margin-top: 10px;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+.side-form form {
+    width: 80%;
+    margin-left: 112px;
+}
+
+.side-form form button{
+    font-family: Lato-Regular;
+    background-color: rgb(0, 207, 255);
+    border: 2px solid rgb(0, 207, 255);
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom:10px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+
