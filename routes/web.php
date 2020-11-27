@@ -21,6 +21,8 @@ Route::get('/person/create', 'PersonController@create');
 Route::get('/person/log', 'PersonController@log');
 Route::post('/person/store', 'PersonController@store');
 Route::post('/log/store', 'LogController@store');
+Route::get('/', 'IndexController@index');
+Route::get('/admin', 'AdminController@index');
 
 
 //Route::post('/location/store', 'PersonController@store');
