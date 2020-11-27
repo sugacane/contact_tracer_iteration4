@@ -31,13 +31,13 @@ class Anonymous extends Model
         //$to_email = 'hyland.andre@gmail.com';
         $data = array('name'=>"BB Contact Tracing (Andre)", "body" => " Your Anonymous ID:".$this->anonymous_id);
 
-        /*
+        
         Mail::send('email.mail', $data, function($message) use ($to_name, $to_email) {
             $message->to($to_email, $to_name)
             ->subject('Laravel Test Mail');
             $message->from('contact.tracer.bb@gmail.com','Test Mail');
         });
-        */
+        
         // finally we can send email here
         
         
